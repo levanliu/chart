@@ -10,13 +10,17 @@
 ['testCase', 'getSignals', 'createParameters', 'readPartialData', 'getSignalPassFailResults', 'createSignalGroups', 'getResults', 'getSignalMapAccess', 'buildModelIdMap', 'createPropertyInfoMap', 'getNotInSpecSignalData'],
 ['pin_100_level_1_timing_1_action_1', 5, 23, 47, 12, 41, 45, 7, 0, 6, 5],
 ['pin_100_level_50_timing_50_action_50', 6, 33, 185, 9, 27, 24, 25, 6, 53, 2],
+['pin_100_level_100_timing_100_action_100', 11, 33, 285, 9, 27, 24, 25, 6, 53, 2],
+['pin_100_level_150_timing_150_action_150', 12, 43, 385, 12, 37, 24, 25, 7, 63, 8],
 ];
         var data = google.visualization.arrayToDataTable(tempData);
 
         var options = {
           title: 'MV Performance',
           curveType: 'function',
-          legend: { position: 'bottom' }
+          legend: { position: 'bottom', textStyle: { fontSize: 12 }, maxLines: 1 }, 
+          pointSize: 5, 
+          chartArea: { width: '80%', height: '80%' } 
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));

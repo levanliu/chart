@@ -16,7 +16,9 @@
         var options = {
           title: 'MV Performance',
           curveType: 'function',
-          legend: { position: 'bottom' }
+          legend: { position: 'bottom', textStyle: { fontSize: 12 }, maxLines: 1 }, 
+          pointSize: 5, 
+          chartArea: { width: '80%', height: '80%' } 
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));

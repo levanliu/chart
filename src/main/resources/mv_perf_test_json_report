@@ -50,5 +50,57 @@
     "modelType": "instrument",
     "Actual MV": "758",
     "Actual Total": "758"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "100",
+      "timing": "100",
+      "action": "100"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 11,
+      "createParameters": 33,
+      "readPartialData": 285,
+      "getSignalPassFailResults": 9,
+      "createSignalGroups": 27,
+      "getResults": 24,
+      "getSignalMapAccess": 25,
+      "buildModelIdMap": 6,
+      "createPropertyInfoMap": 53,
+      "getNotInSpecSignalData": 2
+    },
+    "modelType": "instrument",
+    "Actual MV": "758",
+    "Actual Total": "758"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "150",
+      "timing": "150",
+      "action": "150"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 12,
+      "createParameters": 43,
+      "readPartialData": 385,
+      "getSignalPassFailResults": 12,
+      "createSignalGroups": 37,
+      "getResults": 24,
+      "getSignalMapAccess": 25,
+      "buildModelIdMap": 7,
+      "createPropertyInfoMap": 63,
+      "getNotInSpecSignalData": 8
+    },
+    "modelType": "instrument",
+    "Actual MV": "758",
+    "Actual Total": "758"
   }
 ]

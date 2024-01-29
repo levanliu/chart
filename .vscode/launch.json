@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LineChartHTMLGenerator",
+            "request": "launch",
+            "mainClass": "com.advantest.LineChartHTMLGenerator",
+            "projectName": "chart"
+        },
+        {
+            "type": "java",
+            "name": "GraphPanel",
+            "request": "launch",
+            "mainClass": "com.advantest.GraphPanel",
+            "projectName": "chart"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-App<chart>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.advantest.App",
+            "projectName": "chart",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

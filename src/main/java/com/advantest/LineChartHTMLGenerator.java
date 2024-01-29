@@ -118,8 +118,13 @@ public class LineChartHTMLGenerator {
 
             StringBuilder rowJsonData = new StringBuilder();
             rowJsonData.append("[");
+
             for (int i = 0; i < row.size(); i++) {
-                rowJsonData.append("'").append(row.get(i)).append("'");
+                if (i == 0) {
+                    rowJsonData.append("'").append(row.get(i)).append("'");
+                } else {
+                    rowJsonData.append(row.get(i));
+                }
                 if (i != row.size() - 1) {
                     rowJsonData.append(", ");
                 }

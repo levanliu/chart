@@ -38,7 +38,7 @@ public class LineChartHTMLGenerator {
         }
 
         // Generate the modified HTML content
-        String modifiedContent = generateModifiedHTML(htmlTemplate, jsonData);
+        List<String[]> modifiedContent = generateModifiedHTML(htmlTemplate, jsonData);
 
         // Write the modified HTML content to a new file
         boolean success = writeModifiedContentToFile(modifiedContent, "src/main/resources/templates/mv_perf_test_line_chart.html");
@@ -77,7 +77,7 @@ public class LineChartHTMLGenerator {
         return htmlContent.toString();
     }
 
-    private String generateModifiedHTML(String template, String jsonData) {
+    private List<String[]> generateModifiedHTML(String template, String jsonData) {
         StringBuilder modifiedContent = new StringBuilder(template);
         List<String> value;
         List<String[]> tempData = new ArrayList<>();
@@ -108,24 +108,32 @@ public class LineChartHTMLGenerator {
             }
             tempData.add(value.toArray(new String[0]));
         }
-        System.out.println("tempData:");
-        for (String[] rowData : tempData) {
-            for (String data : rowData) {
-                System.out.print(data + " ");
-            }
-            System.out.println();
-        }
-
-        return modifiedContent.toString();
+        return tempData;
     }
 
-    private boolean writeModifiedContentToFile(String modifiedContent, String filePath) {
+    private boolean writeModifiedContentToFile(List<String[]> tempData, String filePath) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            writer.write(modifiedContent);
+            StringBuilder modifiedContent = new StringBuilder();
+    
+            // Append the modified content to the StringBuilder
+            for (String[] rowData : tempData) {
+                modifiedContent.append("[");
+                for (int i = 0; i < rowData.length; i++) {
+                    modifiedContent.append("'").append(rowData[i]).append("'");
+                    if (i != rowData.length - 1) {
+                        modifiedContent.append(", ");
+                    }
+                }
+                modifiedContent.append("],\n");
+            }
+    
+            // Write the modified content to the file
+            writer.write(modifiedContent.toString());
             return true;
         } catch (Exception e) {
             e.printStackTrace();
             return false;
         }
     }
+    
 }

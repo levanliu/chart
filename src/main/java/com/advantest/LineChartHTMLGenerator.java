@@ -31,14 +31,14 @@ public class LineChartHTMLGenerator {
         }
 
         // Read HTML template file
-        String htmlTemplate = readHtmlTemplateFromFile("src/main/resources/templates/line_chart_template.html.html");
+        String htmlTemplate = readHtmlTemplateFromFile("src/main/resources/templates/line_chart_template.html");
         if (htmlTemplate == null) {
             System.out.println("Error reading HTML template from file");
             return;
         }
 
         // Generate the modified HTML content
-        List<String[]> modifiedContent = generateModifiedHTML(htmlTemplate, jsonData);
+        String modifiedContent = generateModifiedHTML(htmlTemplate, jsonData);
 
         // Write the modified HTML content to a new file
         boolean success = writeModifiedContentToFile(modifiedContent, "src/main/resources/templates/mv_perf_test_line_chart.html");
@@ -77,16 +77,27 @@ public class LineChartHTMLGenerator {
         return htmlContent.toString();
     }
 
-    private List<String[]> generateModifiedHTML(String template, String jsonData) {
+    private String generateModifiedHTML(String template, String jsonData) {
         StringBuilder modifiedContent = new StringBuilder(template);
-        List<String> value;
         List<String[]> tempData = new ArrayList<>();
 
         Gson gson = new Gson();
         JsonArray jsonArray = gson.fromJson(jsonData, JsonArray.class);
 
+        StringBuilder jsonDataBuilder = new StringBuilder("var tempData = [\n");
+
+        // Generate the header row
+        StringBuilder headerRow = new StringBuilder();
+        headerRow.append("['testCase'");
+        JsonObject firstObj = jsonArray.get(0).getAsJsonObject();
+        JsonObject moreDataHeader = firstObj.getAsJsonObject("MoreData");
+        for (Map.Entry<String, JsonElement> entry : moreDataHeader.entrySet()) {
+            headerRow.append(", '").append(entry.getKey()).append("'");
+        }
+        headerRow.append("],\n");
+        jsonDataBuilder.append(headerRow);
+
         for (JsonElement element : jsonArray) {
-            value = new ArrayList<>();
             JsonObject jsonObj = element.getAsJsonObject();
 
             JsonObject additionalData = jsonObj.getAsJsonObject("AdditionalData");
@@ -98,42 +109,42 @@ public class LineChartHTMLGenerator {
             String testCase = "pin_" + pin.getAsString() + "_level_" + level.getAsString() + "_timing_" + timing.getAsString() + "_action_" + action.getAsString();
 
             JsonObject moreData = jsonObj.getAsJsonObject("MoreData");
-            Map<String, JsonElement> moreDataMap = moreData.asMap();
-
-            value.add(testCase);
-
-            for (Map.Entry<String, JsonElement> entry : moreDataMap.entrySet()) {
-                value.add(entry.getKey());
-                value.add(entry.getValue().getAsString());
+            List<String> row = new ArrayList<>();
+            row.add(testCase);
+            for (Map.Entry<String, JsonElement> entry : moreData.entrySet()) {
+                row.add(entry.getValue().getAsString());
             }
-            tempData.add(value.toArray(new String[0]));
+            tempData.add(row.toArray(new String[0]));
+
+            StringBuilder rowJsonData = new StringBuilder();
+            rowJsonData.append("[");
+            for (int i = 0; i < row.size(); i++) {
+                rowJsonData.append("'").append(row.get(i)).append("'");
+                if (i != row.size() - 1) {
+                    rowJsonData.append(", ");
+                }
+            }
+            rowJsonData.append("],");
+            jsonDataBuilder.append(rowJsonData.toString()).append("\n");
         }
-        return tempData;
+
+        jsonDataBuilder.deleteCharAt(jsonDataBuilder.length() - 1); // Remove the last comma
+        jsonDataBuilder.append("\n];");
+
+        // Replace the var tempData assignment in the HTML template with the generated JSON string
+        modifiedContent.replace(modifiedContent.indexOf("var tempData = ["), modifiedContent.indexOf("];") + 2, jsonDataBuilder.toString());
+
+        return modifiedContent.toString();
     }
 
-    private boolean writeModifiedContentToFile(List<String[]> tempData, String filePath) {
+    private boolean writeModifiedContentToFile(String modifiedContent, String filePath) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            StringBuilder modifiedContent = new StringBuilder();
-    
-            // Append the modified content to the StringBuilder
-            for (String[] rowData : tempData) {
-                modifiedContent.append("[");
-                for (int i = 0; i < rowData.length; i++) {
-                    modifiedContent.append("'").append(rowData[i]).append("'");
-                    if (i != rowData.length - 1) {
-                        modifiedContent.append(", ");
-                    }
-                }
-                modifiedContent.append("],\n");
-            }
-    
-            // Write the modified content to the file
-            writer.write(modifiedContent.toString());
+          // Write the modified content to the file
+            writer.write(modifiedContent);
             return true;
         } catch (Exception e) {
             e.printStackTrace();
             return false;
         }
     }
-    
 }

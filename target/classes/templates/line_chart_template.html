@@ -8,17 +8,23 @@
       function drawChart() {
         var tempData = [
         ['testCase', 'getSignals', 'createParameters' , 'readPartialData'],
-        ['pin_100_level_1_timing_1_action_1', 5, 23, 47],
-        ['pin_100_level_50_timing_50_action_50', 6, 33, 185]
+        ['p100_lev_1_tim_1_act_1', 5, 23, 47],
+        ['p100_lev_50_tim_50_act_50', 6, 33, 185]
         ];
         var data = google.visualization.arrayToDataTable(tempData);
 
         var options = {
           title: 'MV Performance',
-          curveType: 'function',
-          legend: { position: 'bottom', textStyle: { fontSize: 15 }, maxLines: 1 }, 
-          pointSize: 5, 
-          chartArea: { width: '80%', height: '80%' } 
+          curveType: 'straight',
+          legend: { position: 'bottom', textStyle: { fontSize: 13 }, maxLines: 1 },
+          pointSize: 5,
+          chartArea: { width: '90%', height: '55%' },
+          hAxis: {
+            textPosition: 'out',
+            slantedText: true,
+            slantedTextAngle: 90,
+            textStyle: { fontSize: 13 }
+          }
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
@@ -28,6 +34,6 @@
     </script>
   </head>
   <body>
-    <div id="curve_chart" style="width: 2400px; height: 1200px"></div>
+    <div id="curve_chart" style="width: 1700px; height: 900px"></div>
   </body>
 </html>

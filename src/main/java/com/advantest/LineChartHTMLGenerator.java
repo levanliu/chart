@@ -106,7 +106,7 @@ public class LineChartHTMLGenerator {
             JsonElement timing = additionalData.get("timing");
             JsonElement action = additionalData.get("action");
 
-            String testCase = "pin_" + pin.getAsString() + "_level_" + level.getAsString() + "_timing_" + timing.getAsString() + "_action_" + action.getAsString();
+            String testCase = "p" + pin.getAsString() + "_lev_" + level.getAsString() + "_tim_" + timing.getAsString() + "_act_" + action.getAsString();
 
             JsonObject moreData = jsonObj.getAsJsonObject("MoreData");
             List<String> row = new ArrayList<>();

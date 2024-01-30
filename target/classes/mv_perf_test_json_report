@@ -4,32 +4,6 @@
       "pin": "100",
       "level": "1",
       "timing": "1",
-      "action": "1"
-    },
-    "instrumentType": "digInOut",
-    "suite": "Main.pins_x_actions",
-    "testType": "execute",
-    "MoreData": {
-      "getSignals": 5,
-      "createParameters": 23,
-      "readPartialData": 47,
-      "getSignalPassFailResults": 12,
-      "createSignalGroups": 41,
-      "getResults": 45,
-      "getSignalMapAccess": 7,
-      "buildModelIdMap": 0,
-      "createPropertyInfoMap": 6,
-      "getNotInSpecSignalData": 5
-    },
-    "modelType": "instrument",
-    "Actual MV": "475",
-    "Actual Total": "475"
-  },
-  {
-    "AdditionalData": {
-      "pin": "100",
-      "level": "50",
-      "timing": "50",
       "action": "50"
     },
     "instrumentType": "digInOut",
@@ -37,70 +11,1474 @@
     "testType": "execute",
     "MoreData": {
       "getSignals": 6,
-      "createParameters": 33,
-      "readPartialData": 185,
-      "getSignalPassFailResults": 9,
-      "createSignalGroups": 27,
-      "getResults": 24,
-      "getSignalMapAccess": 25,
-      "buildModelIdMap": 6,
-      "createPropertyInfoMap": 53,
-      "getNotInSpecSignalData": 2
+      "createParameters": 25,
+      "readPartialData": 63,
+      "getSignalPassFailResults": 11,
+      "createSignalGroups": 56,
+      "getResults": 29,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 1,
+      "createPropertyInfoMap": 8,
+      "getNotInSpecSignalData": 3
     },
     "modelType": "instrument",
-    "Actual MV": "758",
-    "Actual Total": "758"
+    "Actual MV": "529",
+    "Actual Total": "529"
   },
   {
     "AdditionalData": {
       "pin": "100",
-      "level": "100",
-      "timing": "100",
+      "level": "1",
+      "timing": "1",
       "action": "100"
     },
     "instrumentType": "digInOut",
     "suite": "Main.pins_x_actions",
     "testType": "execute",
     "MoreData": {
-      "getSignals": 11,
-      "createParameters": 33,
-      "readPartialData": 285,
-      "getSignalPassFailResults": 9,
-      "createSignalGroups": 27,
-      "getResults": 24,
-      "getSignalMapAccess": 25,
-      "buildModelIdMap": 6,
-      "createPropertyInfoMap": 53,
-      "getNotInSpecSignalData": 2
+      "getSignals": 5,
+      "createParameters": 23,
+      "readPartialData": 53,
+      "getSignalPassFailResults": 8,
+      "createSignalGroups": 7,
+      "getResults": 31,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 1,
+      "createPropertyInfoMap": 7,
+      "getNotInSpecSignalData": 3
     },
     "modelType": "instrument",
-    "Actual MV": "758",
-    "Actual Total": "758"
+    "Actual MV": "499",
+    "Actual Total": "499"
   },
   {
     "AdditionalData": {
       "pin": "100",
-      "level": "150",
-      "timing": "150",
+      "level": "1",
+      "timing": "1",
       "action": "150"
     },
     "instrumentType": "digInOut",
     "suite": "Main.pins_x_actions",
     "testType": "execute",
     "MoreData": {
-      "getSignals": 12,
-      "createParameters": 43,
-      "readPartialData": 385,
-      "getSignalPassFailResults": 12,
-      "createSignalGroups": 37,
-      "getResults": 24,
-      "getSignalMapAccess": 25,
-      "buildModelIdMap": 7,
-      "createPropertyInfoMap": 63,
-      "getNotInSpecSignalData": 8
+      "getSignals": 41,
+      "createParameters": 71,
+      "readPartialData": 79,
+      "getSignalPassFailResults": 8,
+      "createSignalGroups": 6,
+      "getResults": 31,
+      "getSignalMapAccess": 6,
+      "buildModelIdMap": 1,
+      "createPropertyInfoMap": 6,
+      "getNotInSpecSignalData": 2
     },
     "modelType": "instrument",
-    "Actual MV": "758",
-    "Actual Total": "758"
+    "Actual MV": "601",
+    "Actual Total": "601"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "50",
+      "timing": "1",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 5,
+      "createParameters": 20,
+      "readPartialData": 75,
+      "getSignalPassFailResults": 7,
+      "createSignalGroups": 57,
+      "getResults": 15,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 3,
+      "createPropertyInfoMap": 21,
+      "getNotInSpecSignalData": 3
+    },
+    "modelType": "instrument",
+    "Actual MV": "482",
+    "Actual Total": "482"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "100",
+      "timing": "1",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 35,
+      "createParameters": 33,
+      "readPartialData": 135,
+      "getSignalPassFailResults": 7,
+      "createSignalGroups": 5,
+      "getResults": 13,
+      "getSignalMapAccess": 30,
+      "buildModelIdMap": 6,
+      "createPropertyInfoMap": 40,
+      "getNotInSpecSignalData": 2
+    },
+    "modelType": "instrument",
+    "Actual MV": "605",
+    "Actual Total": "681"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "150",
+      "timing": "1",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 4,
+      "createParameters": 20,
+      "readPartialData": 167,
+      "getSignalPassFailResults": 7,
+      "createSignalGroups": 55,
+      "getResults": 15,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 7,
+      "createPropertyInfoMap": 55,
+      "getNotInSpecSignalData": 3
+    },
+    "modelType": "instrument",
+    "Actual MV": "622",
+    "Actual Total": "622"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "50",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 53,
+      "createParameters": 21,
+      "readPartialData": 119,
+      "getSignalPassFailResults": 7,
+      "createSignalGroups": 28,
+      "getResults": 15,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 2,
+      "createPropertyInfoMap": 46,
+      "getNotInSpecSignalData": 2
+    },
+    "modelType": "instrument",
+    "Actual MV": "503",
+    "Actual Total": "654"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "100",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 4,
+      "createParameters": 19,
+      "readPartialData": 1167,
+      "getSignalPassFailResults": 7,
+      "createSignalGroups": 53,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 75,
+      "getNotInSpecSignalData": 2
+    },
+    "modelType": "instrument",
+    "Actual MV": "581",
+    "Actual Total": "657"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
+  },
+  {
+    "AdditionalData": {
+      "pin": "100",
+      "level": "1",
+      "timing": "150",
+      "action": "1"
+    },
+    "instrumentType": "digInOut",
+    "suite": "Main.pins_x_actions",
+    "testType": "execute",
+    "MoreData": {
+      "getSignals": 17,
+      "createParameters": 21,
+      "readPartialData": 1236,
+      "getSignalPassFailResults": 6,
+      "createSignalGroups": 27,
+      "getResults": 13,
+      "getSignalMapAccess": 5,
+      "buildModelIdMap": 4,
+      "createPropertyInfoMap": 111,
+      "getNotInSpecSignalData": 1
+    },
+    "modelType": "instrument",
+    "Actual MV": "753",
+    "Actual Total": "753"
   }
 ]
